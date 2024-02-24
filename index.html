@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>GUC GPA Calculator</h2>
+    <form id="gpaForm">
+        <table id="courses">
+            <tr>
+                <th>Credit Hours</th>
+                <th>Grade</th>
+            </tr>
+        </table>
+        <button type="button" onclick="addCourse()">Add Course</button>
+        <button type="submit">Calculate GPA</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
